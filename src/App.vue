@@ -1,13 +1,14 @@
 <script setup>
 import NavBar from './components/NavBar.vue'
 import back from './assets/back.svg'
-import dibujos from './assets/dibujos.svg'
 import SobreMi from './components/SobreMi.vue'
+import Servicios from './components/Servicios.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
-  <div class="grid grid-cols-1">
-    <header class="h-screen relative grid place-items-center overflow-hidden bg-terciario">
+  <div class="grid grid-cols-1 bg-secundario">
+    <header class="h-screen relative grid place-items-center overflow-hidden bg-terciario rounded-b-3xl">
       <img :src="back" alt="Background" class="absolute inset-0 w-full h-full object-cover opacity-50">
       <NavBar class="bg-primario rounded-3xl p-2 w-1/2 z-10 absolute top-4" />
 
@@ -18,14 +19,11 @@ import SobreMi from './components/SobreMi.vue'
     </header>
 
     <main class="relative min-h-screen bg-secundario flex flex-col items-center justify-center overflow-hidden">
-      <img :src="dibujos" alt="Background" class="absolute inset-0 w-full h-full object-cover opacity-50">
-      <div class="relative z-10 p-8 text-center flex flex-col justify-center items-center -top-50 gap-10">
+      
         <SobreMi />
-      </div>
+        <Servicios />
     </main>
-    <footer class="p-8 bg-gray-800 text-white">
-      <h1>Footer</h1>
-    </footer>
+    <Footer />
 
   </div>
 
