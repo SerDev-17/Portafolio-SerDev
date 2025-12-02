@@ -7,7 +7,7 @@ import CategoriasProyectos from './components/CategoriasProyectos.vue'
 import Timeline from './components/Timeline.vue'
 import Proyectos from './components/Proyectos.vue'
 import Footer from './components/Footer.vue'
-import Hero from './components/hero.vue'
+import Hero from './components/Hero.vue'
 </script>
 
 <template>
