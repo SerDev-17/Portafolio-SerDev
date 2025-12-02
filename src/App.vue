@@ -3,6 +3,9 @@ import NavBar from './components/NavBar.vue'
 import back from './assets/back.svg'
 import SobreMi from './components/SobreMi.vue'
 import Servicios from './components/Servicios.vue'
+import CategoriasProyectos from './components/CategoriasProyectos.vue'
+import Timeline from './components/Timeline.vue'
+import Proyectos from './components/Proyectos.vue'
 import Footer from './components/Footer.vue'
 </script>
 
@@ -19,9 +22,12 @@ import Footer from './components/Footer.vue'
     </header>
 
     <main class="relative min-h-screen bg-secundario flex flex-col items-center justify-center overflow-hidden">
-      
-        <SobreMi />
-        <Servicios />
+
+      <SobreMi />
+      <Servicios />
+      <CategoriasProyectos />
+      <Proyectos />
+      <Timeline />
     </main>
     <Footer />
 
