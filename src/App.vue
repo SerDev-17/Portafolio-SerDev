@@ -12,7 +12,7 @@ import Hero from './components/hero.vue'
 
 <template>
   <div class="grid grid-cols-1 bg-secundario">
-    <header class="h-screen relative grid place-items-center overflow-hidden bg-terciario rounded-b-3xl">
+    <header id="inicio" class="h-screen relative grid place-items-center overflow-hidden bg-terciario rounded-b-3xl">
       <img :src="back" alt="Background" class="absolute inset-0 w-full h-full object-cover opacity-50">
       <NavBar class="bg-primario rounded-3xl p-2 w-1/2 z-10 absolute top-4" />
 
@@ -21,13 +21,13 @@ import Hero from './components/hero.vue'
 
     <main class="relative min-h-screen bg-secundario flex flex-col items-center justify-center overflow-hidden">
 
-      <SobreMi />
-      <Servicios />
+      <SobreMi id="sobre-mi" />
+      <Servicios id="servicios" />
       <CategoriasProyectos />
-      <Proyectos />
+      <Proyectos id="proyectos" />
       <Timeline />
     </main>
-    <Footer />
+    <Footer id="contacto" />
 
   </div>
 

@@ -4,23 +4,23 @@ export default {
         return {
             "Links": [
                 {
-                    "href": "#",
+                    "href": "#inicio",
                     "text": "Inicio"
                 },
                 {
-                    "href": "#",
+                    "href": "#sobre-mi",
                     "text": "Sobre mí"
                 },
                 {
-                    "href": "#",
+                    "href": "#servicios",
                     "text": "Servicios"
                 },
                 {
-                    "href": "#",
+                    "href": "#proyectos",
                     "text": "Proyectos"
                 },
                 {
-                    "href": "#",
+                    "href": "#contacto",
                     "text": "Contacto"
                 }
             ]
