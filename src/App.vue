@@ -7,6 +7,7 @@ import CategoriasProyectos from './components/CategoriasProyectos.vue'
 import Timeline from './components/Timeline.vue'
 import Proyectos from './components/Proyectos.vue'
 import Footer from './components/Footer.vue'
+import Hero from './components/hero.vue'
 </script>
 
 <template>
@@ -15,10 +16,7 @@ import Footer from './components/Footer.vue'
       <img :src="back" alt="Background" class="absolute inset-0 w-full h-full object-cover opacity-50">
       <NavBar class="bg-primario rounded-3xl p-2 w-1/2 z-10 absolute top-4" />
 
-      <div class="z-10 text-center">
-        <h1 class="text-4xl font-bold text-white mb-4">Bienvenido a mi Portafolio</h1>
-        <p class="text-xl text-white">Descubre mis proyectos y habilidades</p>
-      </div>
+      <Hero />
     </header>
 
     <main class="relative min-h-screen bg-secundario flex flex-col items-center justify-center overflow-hidden">
