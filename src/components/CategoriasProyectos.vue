@@ -29,7 +29,7 @@ export default {
 </script>
 
 <template>
-    <section class="relative w-full bg-primario py-8 overflow-hidden rotate-359 rounded-xl">
+    <section class="relative w-full bg-primario py-8 overflow-hidden rotate-359 rounded-xl" data-aos="zoom-in" data-aos-duration="1500">
         <div class="relative flex">
             <div class="flex items-center gap-8 animate-scroll whitespace-nowrap">
                 <template v-for="(skill, index) in skills" :key="`skill-1-${index}`">

@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <section class="relative w-full py-8 overflow- left-15">
+    <section class="relative w-full py-8 overflow- left-15" data-aos="zoom-in" data-aos-duration="1500">
         <div class="z-10 text-left max-w-2xl px-8">
             <p class="text-2xl text-primario/80 mb-2 font-light">Hola, Soy</p>
             <h1 class="text-6xl md:text-7xl font-bold text-primario mb-6 leading-tight">Sergio Naranjo</h1>

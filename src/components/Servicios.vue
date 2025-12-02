@@ -40,7 +40,7 @@ export default {
 </script>
 
 <template>
-    <section class="relative min-h-screen w-full bg-secundario p-8 flex flex-col items-center justify-center">
+    <section class="relative min-h-screen w-full bg-secundario p-8 flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-duration="1500">
         <h2 class="text-5xl font-bold text-primario mb-12">Mis Servicios</h2>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl w-full">

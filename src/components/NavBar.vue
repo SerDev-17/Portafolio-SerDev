@@ -30,7 +30,7 @@ export default {
 </script>
 
 <template>
-    <nav class="bg-primario">
+    <nav class="bg-primario" data-aos="zoom-in" data-aos-duration="1500">
         <ul class="flex justify-around text-terciario">
             <li v-for="link in Links" :key="link.href">
                 <a :href="link.href" class="relative group transition-colors duration-300 hover:text-white">

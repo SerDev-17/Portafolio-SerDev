@@ -38,7 +38,7 @@ export default {
 </script>
 
 <template>
-    <section class="relative min-h-screen w-full bg-secundario p-8 flex flex-col items-center justify-center">
+    <section class="relative min-h-screen w-full bg-secundario p-8 flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-duration="1500">
         <h2 class="text-5xl font-bold text-primario mb-16">Mi Trayectoria</h2>
 
         <div class="relative max-w-5xl w-full">

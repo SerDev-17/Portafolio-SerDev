@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @plugin "@iconify/tailwind4";
 
+/* Scroll suave para navegación */
 html {
   scroll-behavior: smooth;
 }
-

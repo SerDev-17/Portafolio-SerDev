@@ -101,7 +101,7 @@ export default {
 </script>
 
 <template>
-    <footer class="w-full h-auto bg-primario mt-12 p-8 flex justify-around gap-8 rounded-t-4xl">
+    <footer class="w-full h-auto bg-primario mt-12 p-8 flex justify-around gap-8 rounded-t-4xl" data-aos="zoom-in" data-aos-duration="1500">
         <div class="flex flex-col gap-6">
             <h2 class="text-5xl font-bold text-secundario mb-2">Contacto</h2>
 

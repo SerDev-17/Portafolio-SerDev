@@ -58,7 +58,7 @@ export default {
 </script>
 
 <template>
-    <section class="relative min-h-screen w-full bg-secundario p-8 flex flex-col items-center justify-center">
+    <section class="relative min-h-screen w-full bg-secundario p-8 flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-duration="1500">
         <h2 class="text-5xl font-bold text-primario mb-4">Mis Proyectos</h2>
         <p class="text-primario/70 text-lg mb-12 text-center max-w-2xl">
             Una selección de proyectos que demuestran mis habilidades en desarrollo web y diseño

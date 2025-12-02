@@ -50,7 +50,7 @@ export default {
 </script>
 
 <template>
-    <div class="relative min-h-screen">
+    <div class="relative min-h-screen" data-aos="zoom-in" data-aos-duration="1500">
         
         <div class="relative z-10 p-8 text-center flex flex-col justify-center items-center gap-10 min-h-screen">
             <h1 class="text-5xl font-bold text-primario mb-4">Sobre mí</h1>
