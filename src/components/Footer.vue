@@ -60,10 +60,9 @@ export default {
             this.submitMessage = ''
 
             try {
-                // IMPORTANTE: Reemplaza estos valores con tus credenciales de EmailJS
-                const serviceID = 'service_5x3v80t' // Obtén esto de emailjs.com
-                const templateID = 'template_5l1puyg' // Obtén esto de emailjs.com
-                const publicKey = 'Y6IJOrWXNBiwnrZJz' // Obtén esto de emailjs.com
+                const serviceID = 'service_5x3v80t' 
+                const templateID = 'template_5l1puyg'
+                const publicKey = 'Y6IJOrWXNBiwnrZJz'
 
                 const templateParams = {
                     from_name: this.formData.nombre,
@@ -101,7 +100,7 @@ export default {
 </script>
 
 <template>
-    <footer class="w-full h-auto bg-primario mt-12 p-8 flex justify-around gap-8 rounded-t-4xl" data-aos="zoom-in" data-aos-duration="1500">
+    <footer class="w-full h-auto bg-primario mt-12 p-8 flex justify-around gap-8 rounded-t-4xl" data-aos="zoom-in" data-aos-duration="100">
         <div class="flex flex-col gap-6">
             <h2 class="text-5xl font-bold text-secundario mb-2">Contacto</h2>
 
